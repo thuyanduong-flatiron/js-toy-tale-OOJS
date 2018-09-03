@@ -1,4 +1,4 @@
-//Two bugs exist
+//Two bugs exist in this app, it's your job to debug and fix them
 //1. The user can't seem to toggle the create new toy form
 //2. The user can click a toy's like button to increase the like, but it doesn't presist when we reload the page
 
