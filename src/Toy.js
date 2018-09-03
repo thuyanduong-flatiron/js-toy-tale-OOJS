@@ -26,7 +26,7 @@ class Toy {
   }
 
   //Every Toy object instaniated should be able to update its own like property and re-render it to the DOM
-  likeToy(event) {
+  likeToy() {
     this.likes++
     fetch(`http://localhost:3000/toys/${this.id}`, {
       method: 'PATCH',
