@@ -1,7 +1,7 @@
 //The Toy class should include properties and methods related to a single instance of a Toy object
 class Toy {
   constructor(id, name, image, likes){
-    this.id = 0
+    this.id = id
     this.likes = likes
     this.name = name
     this.image = image

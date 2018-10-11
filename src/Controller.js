@@ -7,7 +7,7 @@ class Controller {
 
   //Should toggle the display of the add-toy-form by toggling the addToy property of this instance
   toggleForm(){
-    this.addToy = this.addToy
+    this.addToy = !this.addToy
     let toyContainer = document.querySelector('.container')
     if (this.addToy) {
       toyContainer.style.display = 'block'
